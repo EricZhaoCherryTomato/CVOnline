@@ -7,14 +7,28 @@
   <div class="row">
     <div class="col-md-12"><h3>Work Experience</h3></div>
   </div>
-<squeezebox>
-    <sb-item>
-        <sb-item-head>
-              Jan 2015 - Current
-              Domino’s Pizza Enterprise
-        </sb-item-head>
-        <sb-item-body>Software Engineer</sb-item-body>
-    </sb-item>
+<squeezebox [multiple]="false">
+  <sb-item  *ngFor="let item of itemsList">
+      <sb-item-head>{{item.title}}</sb-item-head>
+      <sb-item-body>
+        <div class="row">
+          <div class="col-md-4"> 
+            Project
+            </div>
+          <div class="col-md-8">
+            Technology
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4"> 
+            {{item.project}}
+            </div>
+          <div class="col-md-8">
+            {{item.tech}}
+          </div>
+        </div>
+      </sb-item-body>
+  </sb-item>
 </squeezebox>
   
 </div>
