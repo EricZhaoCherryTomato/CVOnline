@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Eric Ye Zhao Online CV';
+  title = 'Eric Zhao e-Resume';
 
    private itemsList:Object[] = [
         {
