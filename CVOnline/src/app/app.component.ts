@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -12,14 +11,14 @@ export class AppComponent {
    private itemsList:Object[] = [
         {
           title: 'Jan 2015 - Current   Domino’s Pizza Enterprise',
-          project: 'Star Rating',
-          tech :'KnockoutJS'
+          projects: [ { name : 'Star Rating', tech: 'KnockoutJS'},
+                      { name : 'Online Order Responsive Redesign', tech: 'SASS HTML KnockoutJS'}]
         },
         {
           title: 'Mar 2014 - Jan 2015   Axial Group',
-          project: 'Internal and Public site',
-          tech :'JQuery HTML'
-        },
+          projects: [ { name : 'Internal and Public site', tech: 'JQuery HTML'},
+                      { name : 'Student Enrollment System', tech: 'JQuery CSS HTML'}]
+        }
     ]
     
     constructor() {

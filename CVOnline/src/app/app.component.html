@@ -13,18 +13,20 @@
       <sb-item-body>
         <div class="row">
           <div class="col-md-4"> 
-            Project
+            <h4>Project</h4>
             </div>
           <div class="col-md-8">
-            Technology
+            <h4>Technology</h4>
           </div>
         </div>
-        <div class="row">
+        <div bg-primary text-white class="row"  
+        *ngFor="let project of item.projects, let index=index; let odd=odd; let even=even;"
+        [ngClass]="{ odd: odd, even: even }">
           <div class="col-md-4"> 
-            {{item.project}}
+            {{project.name}}
             </div>
           <div class="col-md-8">
-            {{item.tech}}
+            {{project.tech}}
           </div>
         </div>
       </sb-item-body>
