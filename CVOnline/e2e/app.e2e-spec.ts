@@ -7,8 +7,8 @@ describe('cvonline App', () => {
     page = new CVOnlinePage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display message saying Eric Zhao e-Resume', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('Eric Zhao e-Resume');
   });
 });
