@@ -1,5 +1,9 @@
 # CVOnline
 
+Live page : http://ericecv.azurewebsites.net/
+
+![Codeship Status for spboyer/quickstart-ng-cli](https://app.codeship.com/projects/8eeb7850-41b0-0135-b0cb-56a61d647a77/status?branch=master)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
 ## Development server
