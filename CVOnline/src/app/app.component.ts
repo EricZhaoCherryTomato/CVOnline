@@ -27,7 +27,7 @@ export class AppComponent {
         },
         {
           title: 'Dec 2012 - Mar 2014   Zidea Robot Co. Ltd',
-          projects: [ { name : 'Smart Warehouse', tech: 'VS2010, C#, SQL'}
+          projects: [ { name : 'Smart Warehouse', tech: 'VS2010, C#, MSSQL 2008'}
                     ]
         }
     ]
